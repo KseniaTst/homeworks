@@ -1,0 +1,16 @@
+.default {
+
+}
+
+.red {
+    background: blueviolet;
+    color: aliceblue;
+ hover:red
+
+}
+.filt {
+    background: darkmagenta;
+}
+.add{
+    background: darkorchid;
+}

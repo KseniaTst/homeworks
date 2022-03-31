@@ -1,0 +1,40 @@
+.message {
+    width: 30%;
+display: grid;
+    grid-template-areas:
+    "av j"
+    "av j";
+    grid-template-rows: 35px 30px;
+    grid-template-columns: 60px 2fr
+
+}
+.join{
+    display: grid;
+    grid-template-areas:
+      "nm"
+      "tx"
+      "tm";
+    grid-auto-rows: 20px;
+    width: 200px ;
+    grid-area: j;
+    background-color: gray;
+    border-radius: 10%;
+
+}
+.avatar img{
+grid-area: av;
+    width: 50px;
+
+}
+.name{
+grid-area: nm;
+    margin-top: 2px;
+}
+.text {
+    grid-area: tx;
+
+}
+.time{
+grid-area: tm;
+text-align: right;
+}
