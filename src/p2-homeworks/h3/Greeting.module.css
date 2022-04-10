@@ -1,9 +1,12 @@
-.someClass {color: red;
+.someClass {
+    margin-left: 5px;
 }
 
 .error {
     border: 1px solid red;
 }
-.norm{
+.main{
+    display: flex;
+flex-direction: row;
 
 }
