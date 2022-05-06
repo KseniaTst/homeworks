@@ -1,6 +1,10 @@
+import s from './pages.module.css'
+
+
 function JuniorPlus() {
     return (
-        <div>
+        <div className={s.junPlus}>
+        
             Junior+
         </div>
     )

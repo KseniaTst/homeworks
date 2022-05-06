@@ -1,6 +1,17 @@
 .default {
+border: darkmagenta;
+    margin: 5px;
 
 }
+.default:hover{
+    background: #ddec13;
+    transition: all 500ms ease-out;
+    box-shadow: 0px 0px 0px 1px #f90914,
+    0px 0px 0px 5px #e89a36,
+    0px 0px 0px 7px #e7d558,
+    0px 0px 5px 8px #6a8a0b;
+}
+
 
 .red {
     background: blueviolet;

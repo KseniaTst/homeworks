@@ -14,13 +14,13 @@
     height: 21px;
 
     margin: 10px;
-    background: rgb(208, 233, 68);
+    background: rgb(168, 163, 163);
 }
 .header {
     display: flex;
     width: 280px;
     transition-duration: 500ms;
-    transform: translate(-220px);
+    transform: translate(-212px);
 
 }
 .header:hover{

@@ -2,8 +2,9 @@ import React from 'react'
 import {Route, Routes, Navigate} from "react-router-dom";
 import Error404 from "./pages/Error404";
 import PreJunior from "./pages/PreJunior";
-import Junior from './pages/Junior';
+import Junior from './pages/junior';
 import JuniorPlus from './pages/Junior+';
+import s from './pages/pages.module.css'
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
@@ -15,7 +16,7 @@ export const PATH = {
 
 function Pages() {
     return (
-        <div>
+        <div className={s.main}>
             {/*Routes выбирает первый подходящий роут*/}
             <Routes>
 
