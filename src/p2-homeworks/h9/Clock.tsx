@@ -36,7 +36,7 @@ function Clock() {
 
     return (
         <div>
-            <div
+            <div style={{width:'max-content'}}
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
             >
