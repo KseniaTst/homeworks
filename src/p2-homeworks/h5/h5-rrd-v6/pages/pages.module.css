@@ -2,13 +2,23 @@
 
 }
 .prej{
+    display: flex;
+    flex-direction: column;
+
     background: url("https://kartinkin.net/uploads/posts/2021-01/1611241414_32-p-serii-tekhno-fon-32.jpg") fixed;
 }
 .jun{
+    display: flex;
+    flex-direction: column;
+
     background: url("https://kartinkin.net/uploads/posts/2021-01/1611241414_32-p-serii-tekhno-fon-32.jpg") fixed ;
-    justify-content: center;
+
 }
 .junPlus{
+    display: flex;
+    flex-direction: column;
     background: url("https://kartinkin.net/uploads/posts/2021-01/1611241414_32-p-serii-tekhno-fon-32.jpg") fixed;
-    align-items: center;
+    height: 95vh;
+    padding: 25px;
+
 }
